@@ -4,7 +4,7 @@ namespace LOTF.Unpacker
 {
     class PkgLayer
     {
-        //Header size by 1152 bytes divided into 4 layers by 288 bytes each
+        //Header size 1152 bytes divided into 4 layers of 288 bytes each
 
         public Int32 dwLayer { get; set; }
         public Int32 dwLayerEntrySize { get; set; } // (X + X * 2) << 3
